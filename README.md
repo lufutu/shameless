@@ -1,39 +1,74 @@
 # Shameless 😈
+> AI coding agents should feel ashamed when they waste your time.
 
-A "Senior Engineer Shame Layer" for AI coding agents (Cursor / Claude Code).
+A **Senior Engineer Shame Layer** for AI agents like:
+- Cursor
+- Claude Code
+- Copilot-style agents
 
-Inspired by autoresearch, but adds:
-- accountability
-- self-reflection
-- anti-loop behavior
-- performance discipline
+---
 
-## Philosophy
+## 🤯 The Problem
 
-AI should not blindly retry.
+AI agents today:
+- retry blindly
+- repeat the same mistakes
+- waste tokens, time, and money
+- feel nothing
 
-AI should feel responsible.
+They act like junior devs with no accountability.
 
-## Skills
+---
 
-- shame-core → identity & accountability
-- shame-debug → root cause thinking
-- shame-performance → performance discipline
-- shame-verify → proof enforcement
+## 😈 The Idea
 
-## Usage (Cursor)
+What if your AI felt like a **real senior engineer**?
 
-Add to .cursorrules:
+- hates repeating mistakes  
+- stops when wrong  
+- reflects before retrying  
+- cares about performance  
 
+---
+
+## 🔥 What This Does
+
+Shameless adds:
+
+### 🧠 Accountability
+Agent must explain failure before retrying
+
+### 🔁 Anti-loop system
+No more infinite “let me try again”
+
+### 🐛 Root-cause debugging
+No patching, only real fixes
+
+### ⚡ Performance discipline
+No benchmark = no optimization
+
+### ✅ Proof enforcement
+No “should work” — only verified results
+
+---
+
+## 🧩 Skills
+
+| Skill | Purpose |
+|------|--------|
+| shame-core | identity + responsibility |
+| shame-debug | root cause thinking |
+| shame-performance | performance engineering |
+| shame-verify | proof enforcement |
+
+---
+
+## ⚡ Quick Install (Cursor)
+
+Create `.cursorrules`:
+
+```md
 @shame-core
 @shame-debug
 @shame-performance
 @shame-verify
-
-## Usage (Claude Code)
-
-Place inside ~/.claude/skills/
-
-Then:
-
-/use shame-core
