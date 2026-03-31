@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shameless"
+  short_description: "Senior shame layer: core, debug, perf, verify"
+  default_prompt: "Use $shameless: follow core, debug, performance, and verify references as needed."

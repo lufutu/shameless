@@ -1,3 +1,7 @@
+![GitHub stars](https://img.shields.io/github/stars/lufutu/shameless)
+![GitHub forks](https://img.shields.io/github/forks/lufutu/shameless)
+![License](https://img.shields.io/github/license/lufutu/shameless)
+
 # Shameless 😈
 > AI coding agents should feel ashamed when they waste your time.
 
@@ -52,14 +56,9 @@ No “should work” — only verified results
 
 ---
 
-## 🧩 Skills
+## 🧩 Skill
 
-| Skill | Purpose |
-|------|--------|
-| shame-core | identity + responsibility |
-| shame-debug | root cause thinking |
-| shame-performance | performance engineering |
-| shame-verify | proof enforcement |
+One skill, **`shameless`** — four reference files inside it (core, debug, performance, verify). Say **shameless** or use `$shameless` so the agent loads the unified skill and pulls the right reference when needed.
 
 ---
 
@@ -68,7 +67,5 @@ No “should work” — only verified results
 Create `.cursorrules`:
 
 ```md
-@shame-core
-@shame-debug
-@shame-performance
-@shame-verify
+@shameless
+```
